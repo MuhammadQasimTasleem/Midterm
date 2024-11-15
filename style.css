@@ -6,26 +6,24 @@
 }
 
 body {
-    width: 475px;
+    width: 425px;
     height:700px;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    padding: 0 20px;
+    
 }
 
 .header {
+    width: 425px;
+    height: 500px;
+    padding: 0px;
     background-image: url('./mobile_intro_bg.png'); 
     background-size: cover;
     background-position: center;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     color: #fff;
-}
-
-.para{
-    text-align: center;
-    padding-left: 30px;
 }
 
 .container {
@@ -36,138 +34,220 @@ body {
 
 .menu-icon {
     position: absolute;
-    top: 20px;
+    top: 13px;
     left: 20px;
+    color: #272A31;
+    border-color: none;
+}
+.fa-sharp{
+    font-size: 40px;
 }
 
-.title h1 {
+.heading1 {
     font-size: 1.5em;
     color: #ff5722;
     font-weight: normal;
+    position: relative;
+    top: 14vh;
+    right: 12vw;
 }
 
-.title h2 {
-    font-size: 2.5em;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #ff5722; /* Gradient-like color */
+.heading2 {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight:900;
+    text-align: left;
+    color: #ff5722; 
+    position: relative;
+    top: 14vh;
+    right:  3vw;
+    margin-top: 0px;
 }
 
-.subtitle p {
-    background-color: rgba(255, 255, 255, 0.8); /* Transparent box */
+.para {
+    width: 400px;
     color: #333;
-    padding: 10px 15px;
-    border-radius: 5px;
-    margin: 20px 0;
-    font-size: 1.2em;
-    width: 80%;
+    background-color: #faf7f9;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-size: 12px;
+    font-weight: 90;
+    padding: 8px 30px 8px 10px;
     text-align: center;
+    position: relative;
+    top: 14vh;
+    right:  1vw;
+    margin-top: 20px;
 }
 
 .event-date p {
-    font-size: 1.2em;
-    font-weight: bold;
+    width: 400px;
+    font-size: 30px;
+    font-weight: bolder;
     color: #333;
-    margin: 10px 0;
+    position: relative;
+    top: 15vh;
+    right: 2vw;
 }
 
 .event-date p:nth-child(2) {
-    font-size: 1em;
+    font-size: 0.9em;
     color: #666;
+    position: relative;
+    top: 16vh;
 }
 .main-program {
+    height: 800px;
+    background-image: url(./wp8529160.png);
+    background-size: cover;
     background-color: white;
-    padding: 30px;
-    margin: 30px 0;
+    padding: 10px;
+    margin-top: 30px;
     text-align: center;
     border-radius: 10px;
 }
 
-.main-program h2 {
-    font-size: 2em;
+.main-program h1 {
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-top: 10px;
     margin-bottom: 20px;
+    color: white;
 }
 
-.program-grid {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+
 
 .program-item {
+    width: 395px;
+    height: 100px;
     flex: 1;
     min-width: 200px;
     margin: 10px;
-    padding: 20px;
-    background-color: #f0f0f0;
+    padding: 10px;
+    background-color:rgba(72, 72, 78, 0.72);
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
-
-.ignite {
-    margin-top: 30px;
-    padding: 20px;
-    background-color: #333;
+.program-item img{
+    display: inline;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.program-item h3{
+    width: 100px;
+    height: 30px;
+    color: #ff5722;
+    display: inline;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    align-self: center;
+    text-align: left;
+}
+.program-item p{
+    width: 200px;
+    height: 80px;
+    display: inline;
+    font-size: 10px;
+    font-weight: 100;
     color: white;
-    border-radius: 10px;
+    text-align: justify;
+    margin-right: 30px;
+    margin-top: 20px;
 }
 
-.ignite .join-btn {
+.join-button {
+    width: 330px;
+    height: 70px;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 20px 20px;
     background-color: #ff5722;
     color: white;
     text-decoration: none;
-    margin-top: 15px;
+    text-align: center ;
+    margin-top: 50px;
     border-radius: 5px;
 }
 
 .speakers {
+    width: 430px;
+    height: 400px;
     background-color: white;
-    padding: 30px;
+    padding-top: 10px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+ 
 }
 
-.speakers h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+.speakers h6 {
+    width: 90px ;
+    height: 20px;
+    font-size: 1em;
+    font-weight: 30;
+    margin-top: 30px;
+    display:inline;
+  
 }
 
-.speaker-grid {
+.speaker-grid img {
+    width: 120px;
+    height: 120px;
+}
+.speaker-grid{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
 }
+   
+    
 
 .speaker {
-    margin: 20px;
-    text-align: center;
+   
+ display: flex;
+ flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: center;
+ 
+}
+.speaker h3{
+    display: inline-block;
+    height: 20px;
+  
+}
+.speaker p{
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
 }
 
-.speaker img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-}
 
 .partners {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+    text-align: center;
+    background-color: #272A31;
+    color: white;
+    font-size: 30px;
+    height: 200px;
+    
 }
+.partners-grid{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
 
 .partners img {
     margin: 10px;
     width: 100px;
 }
 
-footer p {
-    font-size: 0.9em;
-}
+
+
+
